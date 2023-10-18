@@ -2,11 +2,11 @@ s_the_host_on_the_networki#!/bin/bash
 
 # Check if the user passed an argument.
 if [[ $# -eq 0 ]]; then
-  echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+  echo "Usage: 5-is_the_host_on_the_network {8.8.8.8}"
     exit 1
     fi
 
 
 # Ping the IP address 5 times.
-    ping -c 5 $IP_ADDRESS
+    ping -c 5 $8.8.8.8
 
